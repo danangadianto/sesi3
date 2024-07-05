@@ -1,0 +1,78 @@
+html,
+body {
+    margin: 0 auto;
+}
+
+header {
+    background: orange;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+#sidebar {
+    background: red;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li:hover {
+    background: yellow;
+    /* width: 100px; */
+    color: black;
+}
+
+#sidebar a,
+#sidebar2 a {
+    color: black;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 6.5em;
+}
+
+#sidebar {
+    flex: 1;
+}
+
+#content {
+    flex: 3;
+}
+
+#sidebar2 {
+    flex: 2;
+}
+
+#sidebar2 {
+    background: aqua;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+.profile-wrapper img {
+    width: 70px;
+}
